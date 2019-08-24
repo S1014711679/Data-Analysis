@@ -2,7 +2,8 @@
 ## Table of Contents
 * [Description](#Description)
 * [Attribute](#Attribute)
-
+* [Final Model](#Final_Model)
+* [Project Report](#Project_Report)
 ## Description
 The dataset: communcrime.dat relates to the total number of violent crimes per 100,000 population across various cities in the US.
 It is composed of a range of real-valued features relating to crime statistics, including state, proportion of ethnicity minorities, 
@@ -38,3 +39,9 @@ population age, SES metrics, immigration numbers, and various metrics relating t
 27. PolicAveOTWorked     ~ police average overtime worked
 28. LemasGangUnitDeploy  ~ gang unit deployed
 29. LemasPctOfficDrugUn  ~ % of officers assigned to drug units
+
+## Final Model
+
+
+## Project Report
+[Project Report](https://github.com/S1014711679/Data-Analysis/blob/master/Regressional%20Analysis%20Using%20R%20-%20US%20Community%20Crime%20Rate/STAT%20435%20Final%20Project.docx)
