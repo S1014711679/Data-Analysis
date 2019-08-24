@@ -1,4 +1,4 @@
-communcrime<-read.table("communcrime1.dat",header=T)
+communcrime<-read.table("communcrime-copy.dat",header=T)
 
 
 nrow(communcrime)
@@ -94,7 +94,7 @@ p4$lambda
 #summary(lm(ViolentCrimesPerPop^p4 ~ pctUrban,data=ViolentCrimesPerPop))
 
 
-###########income ####################
+########### income ####################
 #median income
 medIncome<-communcrime$medIncome
 pctWPubAsst<-communcrime$pctWPubAsst
@@ -207,7 +207,7 @@ median(PctUsePubTrans)
 
 
 
-############################police#############################
+############################ police #############################
 
 LemasSwornFT<-communcrime$LemasSwornFT
 LemasTotalReq<-communcrime$LemasTotalReq
