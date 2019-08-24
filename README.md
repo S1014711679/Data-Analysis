@@ -41,7 +41,14 @@ population age, SES metrics, immigration numbers, and various metrics relating t
 29. LemasPctOfficDrugUn  ~ % of officers assigned to drug units
 
 ## Final Model
-
-
+final_model <- lm(formula = ViolentCrimesPerPop ~ 
+             racepctblack 
+           + agePct12t21 
+           + PctUnemployed 
+           + PctKids2Par 
+           + PctForeignBorn 
+           + LemasTotalReq 
+           + PolicReqPerOffic 
+)
 ## Project Report
 [Project Report](https://github.com/S1014711679/Data-Analysis/blob/master/Regressional%20Analysis%20Using%20R%20-%20US%20Community%20Crime%20Rate/STAT%20435%20Final%20Project.docx)
